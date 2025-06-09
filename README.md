@@ -1,5 +1,17 @@
 # Payslip API
 
+## Tech Stack
+
+- **Backend Framework:** Fastify (Node.js)
+- **ORM:** Sequelize
+- **Database:** PostgreSQL
+- **Authentication:** JWT (JSON Web Token)
+- **Testing:** Jest
+- **Documentation:** Swagger (OpenAPI)
+- **Other:**
+  - CORS, request-id, dotenv
+  - Modular structure (controller, repository, route, model, middleware, utils)
+
 Sistem scalable untuk manajemen payroll, absensi, lembur, reimbursement, dan payslip berbasis Fastify, Sequelize, dan PostgreSQL.
 
 ## Fitur Utama
