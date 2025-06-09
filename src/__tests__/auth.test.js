@@ -19,7 +19,7 @@ async function ensureTestUser() {
 
 describe('Auth API', () => {
     beforeAll(async () => {
-         await fastify.register(jwt, { secret: 'supersecret' });
+        await fastify.register(jwt, { secret: 'supersecret' });
         await fastify.register(authRoutes);
         await sequelize.sync();
         await ensureTestUser();
