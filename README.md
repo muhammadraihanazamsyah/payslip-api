@@ -95,4 +95,4 @@ scripts/          # Seeder user
 
 ---
 
-**Author:** [Your Name]
+**Author:** azam
